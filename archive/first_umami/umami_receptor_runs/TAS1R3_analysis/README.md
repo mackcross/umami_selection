@@ -1,0 +1,2 @@
+# TAS1R3 ANALYSES
+This file contains the alignments, phylogenetic tree, and all data used for input and all generated output from PAML analyses. Each directory contains a README.md file with detailed information on the files contained within the directory. 

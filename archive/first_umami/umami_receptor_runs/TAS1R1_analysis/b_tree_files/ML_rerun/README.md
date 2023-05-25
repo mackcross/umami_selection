@@ -1,0 +1,2 @@
+# PHYLOGENETIC TREE RERUN 
+The command-line PAUP program was downloaded (paup4a168_osx.gz) for Mac OS X on 03/22/2023. The analysis was completed using this program. The original aligned DNA sequence was opened and a duplicate was saved into phylip file format. The PAUP settings are as dictated within the file Human_TAS1R3_orthologues_DNA_aligned_nexus. This file was executed in PAUP. The resultant files were saved and the files used for input were copied, placed in the PAML input file as well. 
