@@ -6,6 +6,10 @@
         "fileType": "GENOMIC_NUCLEOTIDE_FASTA"
       },
       {
+        "filePath": "protein.faa",
+        "fileType": "PROTEIN_FASTA"
+      },
+      {
         "filePath": "data_report.jsonl",
         "fileType": "DATA_REPORT"
       },
