@@ -1,0 +1,2 @@
+gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
+105572430	TAS1R3	taste 1 receptor member 3	Cercocebus atys	sooty mangabey	9531	NW_012003162.1:114598-120749	-	chr Un	PROTEIN_CODING	XM_012031098.1		5589	XM_012031098.1:1738-4350	XP_011886488.1		870	taste receptor type 1 member 3
