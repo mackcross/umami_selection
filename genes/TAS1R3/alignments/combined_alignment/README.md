@@ -1,10 +1,7 @@
-# ALIGNMENT
-The amino acid transcripts were referenced to ensure proper reading frame.  
+I deleted the C at 1877 which was likely due to a transcription error. 
+This change turns the codon from a guanine to an alanine, as indiated in 
+amino acid transcript. 
 
-"TAS1R3_dna_aligned_combined" and "TAS1R3_amino_aligned_combined" were the 
-intial alignments after combining the ensembl and NCBI data. Eight 
-sequences has DNA segements preceding the ATG codon at position 2155. As 
-the nature of PAML analyses is comparative, I made the decision to remove 
-these preceding sequences. The files "cleaned_TAS1R3_dna_aligned_combined" 
-and "cleaned_TAS1R3_amino_aligned_combined" were generated following this 
-deletion and aligned. 
+I inserted a space at 2172 as there is a missing base at that location. 
+Adding the space makes the alignment consistent with the amino acid 
+transcript. 
