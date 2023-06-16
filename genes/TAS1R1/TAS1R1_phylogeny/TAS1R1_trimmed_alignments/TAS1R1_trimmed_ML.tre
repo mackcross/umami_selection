@@ -1,0 +1,87 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Jun 14 14:25:29 2023]
+[!
+>Data file = trimmed_TAS1R1_dna_aligned_combined.nex
+>Heuristic search settings:
+>  Optimality criterion = likelihood
+>    All characters have equal weight
+>    Likelihood settings:
+>                  DNA substitution types = 2 (HKY85 variant)
+>                             Ti/tv ratio = 2.65552
+>                       State frequencies = empirical: A=0.187235 C=0.302905 G=0.275887 T=0.233973
+>          Proportion of invariable sites = none
+>                 Rates at variable sites = gamma, shape=0.60033 (4 categories [mean])
+>                    Model correspondence = HKY85+G
+>
+>      Number of distinct data patterns under this model = 775
+>      Molecular clock not enforced
+>      Starting branch lengths obtained using Rogers-Swofford approximation method
+>      Trees with approximate log likelihoods 5% or further from the target score are rejected without
+>        additional iteration
+>      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+>      Likelihood calculations performed in single precision
+>      Vector processing enabled
+>      Using standard Felsenstein pruning for computing likelihoods
+>      Conditional-likelihood rescaling threshold = 1e-20
+>
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 100
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 20580
+>  Score of best tree(s) found = 13228.98
+>  Number of trees retained = 1
+>  Time used = 00:06:05 (CPU time = 00:06:05.6)
+]
+	Translate
+		1 Csyr_tarsier_ENSTSYP00000004773,
+		2 Gvar_flying_lemur_NW_0077263951c341923330993,
+		3 Sbbo_bolivian_squirrel_monkey_ENSSBOP00000021106,
+		4 Anan_night_monkey_ENSANAP00000031104,
+		5 Cjac_marmoset_ENSCJAP00000000367,
+		6 Cimi_whitefaced_capuchin_NW_0161075551393994410203,
+		7 Sape_tufted_capuchin_NW_0224369831786762803531,
+		8 Csab_vervet_ENSCSAP00000017261,
+		9 Csab_green_monkey_NW_0236660541c2922123329212342,
+		10 Mfas_crab_eating_macaque_ENSMFAP00000040159,
+		11 Mthi_tibetan_macaque_NC_065578156604215680919,
+		12 Mnem_pig_tailed_macaque_ENSMNEP00000013218,
+		13 Mmul_macaque_ENSMMUP00000023918,
+		14 Mleu_drill_ENSMLEP00000009236,
+		15 Caty_sooty_mangabey_ENSCATP00000030748,
+		16 Panu_olive_baboon_ENSPANP00000010900,
+		17 Tgel_gelada_NC_03766813527367235293941,
+		18 Tfra_leaf_monkey_NW_0226814571c118037619118020380,
+		19 Rbie_black_snub_nose_ENSRBIP00000037035,
+		20 Rrox_golden_snub_nose_ENSRROP00000027685,
+		21 Cang_blackwhite_colobus_NW_0121148221c25850362560650,
+		22 Ptep_red_colobus_NC_0454341c215368835215345229,
+		23 Nleu_whitecheeked_gibbon_ENSNLEP00000010446,
+		24 Hmol_silvery_gibbon_NW_022611651159076865933390,
+		25 Ssyn_siamang_NC_0724441c3034121030311772,
+		26 Pabe_sumatran_orang_ENSPPYP00000002249,
+		27 Ppyg_bornean_orangutan_NC_0723731c223609451223585162,
+		28 Hsap_human_ENSP00000331867,
+		29 Ggor_gorilla_ENSGGOP00000006666,
+		30 Ptro_chimp_ENSPTRP00000000174,
+		31 Ppan_bonobo_ENSPPAP00000016181,
+		32 Ogar_bushbaby_ENSOGAP00000001348,
+		33 Ncou_slow_loris_NC_069801141742434188300,
+		34 Psim_greater_bamboo_lemur_ENSPSMP00000033684,
+		35 Lcat_ringtailed_NC_0591301c122692603122684084,
+		36 Pcoq_shifaka_ENSPCOP00000025194,
+		37 Mmur_mouse_lemur_ENSMICP00000047865
+		;
+tree 'PAUP_1' = [&U] (1,(2,((32,33),((34,35),(36,37)))),((((3,(6,7)),5),4),((((8,9),(((10,11),12,13),14,15,(16,17))),((18,(19,20)),(21,22))),((23,24,25),((26,27),(28,(29,(30,31))))))));
+End;
