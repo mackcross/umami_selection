@@ -4729,3 +4729,13 @@ The limit of 100 trees (= 'Maxtrees') has been reached.  Do you want to increase
 
 Do you want to increase 'Maxtrees'? (Y/n)Y
 
+Enter new value for 'Maxtrees' (200):200
+
+Action if limit is hit:
+   (1) Prompt for new value
+   (2) Automatically increase by 100 (= AUTOINC)
+   (3) Leave unchanged, and don't prompt
+(1)>2
+
+Do you really want to stop the search? (Y/n)n
+
