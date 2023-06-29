@@ -1,7 +1,10 @@
 # TAS1R1 Maximum Likelihood Phylogeny 
 
 ## ALIGNMENT PREPARATION
-I saved copies of the alignments "trimmed_TAS1R1_dna_aligned_combined.fa" and "selected_removal_TAS1R1_dna_aligned_combined.fa" as nexus files which were stored in the ...TAS1R1/phylogeny/ directory for PAUP input. I removed any symbols which were not underscores from the sequence names, as PAUP does not accept these symbols. 
+I saved copies of the alignments "trimmed_dna_aligned_combined_TAS1R1.fa" and "selected_removal_dna_aligned_combined_TAS1R1.fa" as nexus files which were stored in the ~/TAS1R1/phylogeny/ directory for PAUP input. I removed any symbols which were not underscores from the sequence names, as PAUP does not accept these symbols. 
 
-## MAXIMUM LIKELIHOOD GENERATION
-On 6/14/23, I used PAUP's command line (Version 4.0a (build 168) for MacOS), to individually run both the "trimmed_TAS1R1_dna_aligned_combined.fa" and "selected_removal_TAS1R1_dna_aligned_combined.fa" alignments. All PAUP parameters are documented in the alignment nexus files, as these files were used as PAUP input. PAUP output was saved in each alignment's respective directory. 
+## MODEL TEST
+Using Wilgenbeusch and Swofford's publication "Inferring Evolutionary Trees with PAUP*" as a guide, I tested the trimmed alignment under different models in PAUP. I ran a likelihood ratio test in the R script to compare the log-likelihoods of models, and found the second model (nst=6 rmatrix=estimate basefreq=empirical rates=gamma pinvar=0;) to be best supported. The alignment, settings, output and R script used for this model test can be found in the directory model_test_TAS1R1. 
+
+## GENERATION OF PHYLOGENY
+I wrote an R script to iteratively run the PAUP analyses for both TAS1R1 and TAS1R3 alignments (found in ~/umami_selection/genes/scripts/argon_iterative_phylogeny.R). The alignments found in ~/phylogeny_TAS1R1/analysis_phylogeny_TAS1R1/ were ran on the University of Iowa computing cluster (ARGON). I copied the output files from this process into this directory, pairing the output with its respective alignment. 

@@ -1,0 +1,352 @@
+
+P A U P *
+Version 4.0a (build 168) for macOS (built on Aug  2 2020 at 06:41:30)
+Wed Jun 28 10:13:29 2023
+
+
+Optimality criterion set to distance.
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = uncorrected ("p")
+  2523 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Neighbor-joining tree:
+
+/------------------------------------------ Csyr tarsier ENSTSYP00000004773
+|
+|    /---------------------------------------------- Gvar flying lemur NW 0077263951c
+|    |
+|    |                                      /------------ Sbbo bolivian squirrel monkey EN
+|    |                                      |
+|    |                     /----------------+/---------- Anan night monkey ENSANAP0000003
+|    |                     |                ||
+|    |                     |                \+/--------- Cjac marmoset ENSCJAP00000000367
+|    |                     |                 ||
+|    |                     |                 \+      /-- Cimi whitefaced capuchin NW 0161
+|    |                     |                  \------+
+|    |                     |                         \- Sape tufted capuchin NW 02243698
+|    |                     |
+|    |                     |                          / Csab vervet ENSCSAP00000017261
+|    |                     |                     /----+
+|    |                     |                     |    \ Csab green monkey NW 0236660541c
+|    |                     |                     |
+|    |                     |                     |   /-- Mfas crab eating macaque ENSMFAP
+|    |                     |                     |   |
+|    |                     |                    /+   +-- Mthi tibetan macaque NC 06557815
+|    |                     |                    || /-+
+|    |                     |                    || | +- Mnem pig tailed macaque ENSMNEP0
+\----+/--------------------+                    || | |
+     ||                    |                    |\-+ \- Mmul macaque ENSMMUP00000023918
+     ||                    |                    |  |
+     ||                    |                    |  +-- Mleu drill ENSMLEP00000009236
+     ||                    |                    |  |
+     ||                    |                    |  +-- Caty sooty mangabey ENSCATP00000
+     ||                    |         /----------+  |
+     ||                    |         |          |  |/- Panu olive baboon ENSPANP0000001
+     ||                    |         |          |  \+
+     ||                    |         |          |   \-- Tgel gelada NC 03766813527367235
+     ||                    |         |          |
+     ||                    |         |          |  /-- Tfra leaf monkey NW 0226814571c1
+     ||                    |         |          |  |
+     ||                    |         |          |/-+ /- Rbie black snub nose ENSRBIP0000
+     ||                    |         |          || \-+
+     ||                    |         |          \+   \- Rrox golden snub nose ENSRROP000
+     ||                    \---------+           |
+     ||                              |           | /---- Cang blackwhite colobus NW 01211
+     ||                              |           \-+
+     ||                              |             \---- Ptep red colobus NC 0454341c2153
+     ||                              |
+     ||                              |         /------------------- Nleu whitecheeked gibbon ENSNLEP
+     \+                              |         |
+      |                              |    /----+/--- Hmol silvery gibbon NW 022611651
+      |                              |    |    \+
+      |                              |    |     \--- Ssyn siamang NC 0724441c30341210
+      |                              \----+
+      |                                   |      /- Pabe sumatran orang ENSPPYP00000
+      |                                   | /----+
+      |                                   | |    \-- Ppyg bornean orangutan NC 072373
+      |                                   \-+
+      |                                     |   /--- Hsap human ENSP00000331867
+      |                                     |   |
+      |                                     \---+-- Ggor gorilla ENSGGOP00000006666
+      |                                         |
+      |                                         |/- Ptro chimp ENSPTRP00000000174
+      |                                         \+
+      |                                          \- Ppan bonobo ENSPPAP00000016181
+      |
+      |                                /------------- Ogar bushbaby ENSOGAP00000001348
+      |        /-----------------------+
+      |        |                       \------------- Ncou slow loris NC 0698011417424
+      |        |
+      |        |                             /----- Psim greater bamboo lemur ENSPSM
+      \--------+            /----------------+
+               |            |                \----- Lcat ringtailed NC 0591301c12269
+               |           /+
+               \-----------+\---------------------- Pcoq shifaka ENSPCOP00000025194
+                           |
+                           \------------------ Mmur mouse lemur ENSMICP00000047
+
+Tree found by neighbor-joining method stored in tree buffer
+Time used for tree calculation = 0.01 sec (CPU time = 0.00 sec)
+
+Optimality criterion set to likelihood.
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = empirical: A=0.187235 C=0.302905 G=0.275887 T=0.233973
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = HKY85
+
+    Number of distinct data patterns under this model = 775
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree                   1
+------------------------
+-ln L          13473.933
+Ti/tv:
+  exp. ratio    2.455339
+  kappa         4.982525
+
+Time used to compute likelihoods = 0.05 sec (CPU time = 0.06 sec)
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = empirical: A=0.187235 C=0.302905 G=0.275887 T=0.233973
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = HKY85+G
+
+    Number of distinct data patterns under this model = 775
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree                   1
+------------------------
+-ln L          13236.351
+Ti/tv:
+  exp. ratio    2.655522
+  kappa         5.388749
+Shape           0.600330
+
+Time used to compute likelihoods = 0.97 sec (CPU time = 0.97 sec)
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = empirical: A=0.187235 C=0.302905 G=0.275887 T=0.233973
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = HKY85+I+G
+
+    Number of distinct data patterns under this model = 775
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree                   1
+------------------------
+-ln L          13235.186
+Ti/tv:
+  exp. ratio    2.657869
+  kappa         5.393512
+Shape           1.177665
+P_inv           0.228471
+
+Time used to compute likelihoods = 2.77 sec (CPU time = 2.77 sec)
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = empirical: A=0.187235 C=0.302905 G=0.275887 T=0.233973
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = GTR
+
+    Number of distinct data patterns under this model = 775
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree             1
+------------------
+-ln L    13451.217
+Exchangeabilities (R):
+  AC       1.88250
+  AG       7.72837
+  AT       0.94284
+  CG       1.68978
+  CT       6.64111
+  GT       1.00000
+
+Time used to compute likelihoods = 0.40 sec (CPU time = 0.40 sec)
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = empirical: A=0.187235 C=0.302905 G=0.275887 T=0.233973
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = GTR+G
+
+    Number of distinct data patterns under this model = 775
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree             1
+------------------
+-ln L    13222.550
+Exchangeabilities (R):
+  AC       1.82215
+  AG       8.12029
+  AT       1.06137
+  CG       1.50139
+  CT       6.90000
+  GT       1.00000
+Shape     0.613298
+
+Time used to compute likelihoods = 1.42 sec (CPU time = 1.42 sec)
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = empirical: A=0.187235 C=0.302905 G=0.275887 T=0.233973
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = GTR+I+G
+
+    Number of distinct data patterns under this model = 775
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree             1
+------------------
+-ln L    13221.676
+Exchangeabilities (R):
+  AC       1.81154
+  AG       8.10078
+  AT       1.06385
+  CG       1.49335
+  CT       6.87834
+  GT       1.00000
+Shape     1.080436
+P_inv     0.199434
+
+Time used to compute likelihoods = 5.57 sec (CPU time = 5.58 sec)
+
+1 tree saved to file
+"~/Documents/umami_selection/genes/TAS1R1/phylogeny_TAS1R1/model_test_TAS1R1/trees_model_testtrimmed
+_dna_aligned_combined_TAS1R1.tre"
+
+Processing of input file "model_test_trimmed_dna_aligned_combined_TAS1R1.nex" completed.
+
+paup> execute /Users/mackcross/Documents/umami_selection/genes/TAS1R3/phylogeny_TAS1R3/model_test_TAS1R3/model_test_trimmed_dna_aligned_combined_TAS1R3.nex
+
+Processing of file
+"~/Documents/umami_selection/genes/TAS1R3/phylogeny_TAS1R3/model_test_TAS1R3/model_test_trimmed_dna_
+aligned_combined_TAS1R3.nex" begins...
+
+Are you sure you want to reset the active datafile? (Y/n)Y
+
+Data read in nucleotide format
+
+Data matrix has 34 taxa, 2562 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
