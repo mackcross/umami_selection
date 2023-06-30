@@ -49,5 +49,5 @@ p_value5 <- 1 - pchisq(2 * abs(GTR_G_log - GTR_I_G_log), df_5)
 df_6 <- GTR_G_param - HKY85_G_param
 p_value6 <- 1 - pchisq(2 * abs(HKY85_G_log - GTR_G_log), df_6)
 
-
+# HWKY85 + G is best model 
 

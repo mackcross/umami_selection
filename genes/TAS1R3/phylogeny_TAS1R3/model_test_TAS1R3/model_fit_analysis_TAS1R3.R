@@ -45,7 +45,7 @@ df_5 <- GTR_I_G_param - GTR_G_param
 p_value5 <- 1 - pchisq(2 * abs(GTR_G_log - GTR_I_G_log), df_5)
 # Alternative accepted: GTR + G + I better model 
 
-
+# GTR + G + I is best model 
 
 
 
