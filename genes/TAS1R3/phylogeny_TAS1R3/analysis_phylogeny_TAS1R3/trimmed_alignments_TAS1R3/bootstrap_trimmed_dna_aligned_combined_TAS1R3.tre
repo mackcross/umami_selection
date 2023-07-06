@@ -1,0 +1,81 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Jul  4 17:16:24 2023]
+[!
+>Data file = trimmed_dna_aligned_combined_TAS1R3.nex
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 500
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 2562
+>  Optimality criterion = likelihood
+>    All characters have equal weight
+>    Likelihood settings:
+>                  DNA substitution types = 6
+>                       Exchangeabilities = AC=1.31535 AG=4.78823 AT=0.795433 CG=0.978969 CT=3.69332 GT=1
+>                       State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+>          Proportion of invariable sites = 0.109937
+>                 Rates at variable sites = gamma, shape=1.36638 (4 categories [mean])
+>                    Model correspondence = GTR+I+G
+>
+>      Number of distinct data patterns under this model = 1024
+>      Molecular clock not enforced
+>      Starting branch lengths obtained using Rogers-Swofford approximation method
+>      Trees with approximate log likelihoods 5% or further from the target score are rejected without additional iteration
+>      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+>      Likelihood calculations performed in single precision
+>      Vector processing enabled
+>      Using standard Felsenstein pruning for computing likelihoods
+>      Conditional-likelihood rescaling threshold = 1e-20
+>
+>  Starting tree(s) obtained via neighbor-joining
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 150 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>NOTE: Random-addition-sequence option is ignored when starting trees are obtained using neighbor-joining.
+>
+>  500 bootstrap replicates completed
+>  Time used = 31:59:44 (CPU time = 31:42:30.9)
+]
+	Translate
+		1 Ogar_bushbaby_ENSOGAP00000021276,
+		2 Cjac_marmoset_ENSCJAP00000020529,
+		3 Anan_night_monkey_ENSANAP00000014095,
+		4 Sbbo_bolivian_squirrel_monkey_ENSSBOP00000021331,
+		5 Sape_tufted_capuchin_NW_0224370671484539489669,
+		6 Cimi_whitefaced_capuchin_NW_016107460135589193563963,
+		7 Csab_vervet_ENSCSAP00000017323,
+		8 Mnem_pig_tailed_macaque_ENSMNEP00000040654,
+		9 Mmul_macaque_ENSMMUP00000078066,
+		10 Mfas_crab_eating_macaque_NC_0522551c221413599221409571,
+		11 Mthi_tibetan_macaque_NC_0655781526171530367,
+		12 Caty_sooty_mangabey_ENSCATP00000000954,
+		13 Mleu_drill_ENSMLEP00000011295,
+		14 Panu_olive_baboon_ENSPANP00000015259,
+		15 Tgel_gelada_NW_02025758311573518970,
+		16 Ptep_red_colobus_NC_0454341c220468288220462968,
+		17 Cang_blackwhite_colobus_NW_0121175551597388600888,
+		18 Rbie_black_snubnose_ENSRBIP00000039642,
+		19 Rrox_golden_snubnose_ENSRROP00000002352,
+		20 Tfra_leaf_monkey_NW_0226814571c121435076121430104,
+		21 Pabe_sumatran_orang_ENSPPYP00000002326,
+		22 Ppyg_bornean_orangutan_NC_0723731c228738522228733874,
+		23 Nleu_whitecheeked_gibbon_NC_044404124390842445408,
+		24 Hmol_silvery_gibbon_NW_0226116511958178963521,
+		25 Ssyn_siamang_NC_0724441c3538573635379617,
+		26 Ggor_gorilla_ENSGGOP00000023446,
+		27 Hsap_human_ENSP00000344411,
+		28 Ptro_chimp_ENSPTRP00000044858,
+		29 Ppan_bonobo_ENSPPAP00000024462,
+		30 Gvar_flying_lemur_NW_0077277481c204468201306,
+		31 Mmur_mouse_lemur_ENSMICP00000043915,
+		32 Pcoq_shifaka_ENSPCOP00000017626,
+		33 Psim_greater_bamboo_lemur_ENSPSMP00000018490,
+		34 Lcat_ringtailed_NC_0591301c126337882126333597
+		;
+tree 'PAUP_1' = [&U] (1:100,((((2:100,(4:100,(5:100,6:100):100):96.6):56.8,3:100):100,(((7:100,((((8:100,11:100):63.2,9:100):50.867,10:100):100,((12:100,13:100):100,(14:100,15:100):99.6):52.267):85.4):100,(16:100,(17:100,((18:100,19:100):100,20:100):81.333):51.5):100):100,(((21:100,22:100):100,((23:100,24:100):56.867,25:100):100):67.5,(26:100,(27:100,(28:100,29:100):100):97):100):100):100):100,30:100):98.2,(31:100,(32:100,(33:100,34:100):100):50.6):100);
+End;
