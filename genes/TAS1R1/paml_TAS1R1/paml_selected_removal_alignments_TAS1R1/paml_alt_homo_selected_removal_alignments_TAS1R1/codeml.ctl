@@ -1,7 +1,7 @@
-      seqfile = Human_TAS1R1_breaks2_2nd_attempt.txt * sequence data filename
-     treefile = TAS1R1_revised_tree_following_error_message.txt * tree file name
+      seqfile = paml_alt_homo_selected_removal_dna_aligned_combined_TAS1R1 * sequence data filename
+     treefile = paml_alt_homo_ML_tree_output_selected_removal_dna_aligned_combined_TAS1R1.tre * tree file name
 
-      outfile = test_output          * main result file name
+      outfile = output_paml_alt_homo_selected_removal_dna_aligned_combined_TAS1R1          * main result file name
    
         noisy = 9  * 0,1,2,3,9: how much rubbish on the screen
       verbose = 2  * 0: concise; 1: detailed, 2: too much
@@ -9,7 +9,7 @@
                    * 3: StepwiseAddition; (4,5):PerturbationNNI; -2: pairwise
 
       seqtype = 1  * 1:codons; 2:AAs; 3:codons-->AAs
-    CodonFreq = 2 * 0 : 1/61 each, 1:F1X4, 2:F3X4, 3:codon table
+    CodonFreq = 7 * 0 : 1/61 each, 1:F1X4, 2:F3X4, 3:codon table
                    * 4:F1x4MG, 5:F3x4MG, 6:FMutSel0, 7:FMutSel
         model = 2
                    * models for codons:
