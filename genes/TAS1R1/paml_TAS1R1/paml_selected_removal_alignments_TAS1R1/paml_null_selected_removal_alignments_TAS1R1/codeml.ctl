@@ -1,5 +1,5 @@
       seqfile = paml_null_selected_removal_dna_aligned_combined_TAS1R1 * sequence data filename
-     treefile = paml_null_ML_tree_output_selected_removal_dna_aligned_combined_TAS1R1.tre * tree file name
+     treefile = paml_null_ML_tree_output_selected_removal_dna_aligned_combined_TAS1R1.txt * tree file name
 
       outfile = output_paml_null_selected_removal_dna_aligned_combined_TAS1R1          * main result file name
    
