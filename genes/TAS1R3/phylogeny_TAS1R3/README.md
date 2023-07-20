@@ -1,7 +1,7 @@
 # TAS1R3 Maximum Likelihood Phylogeny 
 
 ## ALIGNMENT PREPARATION
-I saved copies of the alignments "trimmed_dna_aligned_combined_TAS1R3.fa", "altered_dna_aligned_combined_TAS1R3.fa", and "selected_removal_dna_aligned_combined_TAS1R3.fa" as nexus files which were stored in the ~/TAS1R3/phylogeny/ directory for PAUP input. I removed any symbols which were not underscores from the sequence names, as PAUP does not accept these symbols. 
+I saved copies of the alignments "trimmed_dna_aligned_combined_TAS1R3.fa", "altered_dna_aligned_combined_TAS1R3.fa", and "selected_removal_dna_aligned_combined_TAS1R3.fa" as nexus files. I removed any symbols which were not underscores from the sequence names, as PAUP does not accept these symbols. 
 
 ## MODEL TEST
 Using Wilgenbeusch and Swofford's publication "Inferring Evolutionary Trees with PAUP*" as a guide, I tested the trimmed alignment under different models in PAUP. I ran a likelihood ratio test in the R script to compare the log-likelihoods of models, and found GTR+G+I (nnst=6 rmatrix=estimate basefreq=empirical rates=gamma shape=estimate pinvar=estimate;) to be best supported. The alignment, settings, output and R script used for this model test can be found in the directory ~/phylogeny_TAS1R3/model_test_TAS1R3. 
