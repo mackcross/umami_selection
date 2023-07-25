@@ -1,5 +1,5 @@
       seqfile = paml_alt_hominini_selected_removal_dna_aligned_combined_TAS1R3 * sequence data filename
-     treefile = paml_alt_hominini_ML_tree_selected_removal_dna_aligned_combined_TAS1R3.tre * tree file name
+     treefile = paml_alt_hominini_ML_tree_selected_removal_dna_aligned_combined_TAS1R3.txt * tree file name
 
       outfile = output_paml_alt_hominini_selected_removal_dna_aligned_combined_TAS1R3          * main result file name
    

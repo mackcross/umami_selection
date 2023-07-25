@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Thu Jul 13 18:29:52 2023]
+Begin trees;  [Treefile saved Thu Jul 20 08:19:09 2023]
 [!
 >Data file = selected_removal_dna_aligned_combined_TAS1R3.nex
 >Heuristic search settings:
@@ -10,12 +10,12 @@ Begin trees;  [Treefile saved Thu Jul 13 18:29:52 2023]
 >                  DNA substitution types = 6
 >                       Exchangeabilities = estimated
 >             GTR submodel classification = unrestricted
->                       State frequencies = empirical: A=0.147741 C=0.341246 G=0.3223 T=0.188713
+>                       State frequencies = empirical: A=0.147497 C=0.341472 G=0.322386 T=0.188645
 >          Proportion of invariable sites = estimated
 >                 Rates at variable sites = gamma, shape=estimated (4 categories [mean])
 >                    Model correspondence = GTR+I+G
 >
->      Number of distinct data patterns under this model = 826
+>      Number of distinct data patterns under this model = 769
 >      Molecular clock not enforced
 >      Starting branch lengths obtained using Rogers-Swofford approximation method
 >      Trees with approximate log likelihoods 5% or further from the target score are rejected without additional iteration
@@ -40,10 +40,10 @@ Begin trees;  [Treefile saved Thu Jul 13 18:29:52 2023]
 >  Trees are unrooted
 >
 >Heuristic search completed
->  Total number of rearrangements tried = 85730
->  Score of best tree(s) found = 15367.85
+>  Total number of rearrangements tried = 30674
+>  Score of best tree(s) found = 14172.14
 >  Number of trees retained = 1
->  Time used = 127:25:17 (CPU time = 127:03:40.1)
+>  Time used = 40:02:04 (CPU time = 39:57:44.5)
 ]
 	Translate
 		1 Ogar_bushbaby_ENSOGAP00000021276,
@@ -63,23 +63,22 @@ Begin trees;  [Treefile saved Thu Jul 13 18:29:52 2023]
 		15 Tgel_gelada_NW_02025758311573518970,
 		16 Ptep_red_colobus_NC_0454341c220468288220462968,
 		17 Cang_blackwhite_colobus_NW_0121175551597388600888,
-		18 Rbie_black_snubnose_ENSRBIP00000039642,
-		19 Rrox_golden_snubnose_ENSRROP00000002352,
-		20 Tfra_leaf_monkey_NW_0226814571c121435076121430104,
-		21 Pabe_sumatran_orang_ENSPPYP00000002326,
-		22 Ppyg_bornean_orangutan_NC_0723731c228738522228733874,
-		23 Nleu_whitecheeked_gibbon_NC_044404124390842445408,
-		24 Hmol_silvery_gibbon_NW_0226116511958178963521,
-		25 Ssyn_siamang_NC_0724441c3538573635379617,
-		26 Ggor_gorilla_ENSGGOP00000023446,
-		27 Hsap_human_ENSP00000344411,
-		28 Ptro_chimp_ENSPTRP00000044858,
-		29 Ppan_bonobo_ENSPPAP00000024462,
-		30 Gvar_flying_lemur_NW_0077277481c204468201306,
-		31 Mmur_mouse_lemur_ENSMICP00000043915,
-		32 Pcoq_shifaka_ENSPCOP00000017626,
-		33 Psim_greater_bamboo_lemur_ENSPSMP00000018490,
-		34 Lcat_ringtailed_NC_0591301c126337882126333597
+		18 Rrox_golden_snubnose_ENSRROP00000002352,
+		19 Tfra_leaf_monkey_NW_0226814571c121435076121430104,
+		20 Pabe_sumatran_orang_ENSPPYP00000002326,
+		21 Ppyg_bornean_orangutan_NC_0723731c228738522228733874,
+		22 Nleu_whitecheeked_gibbon_NC_044404124390842445408,
+		23 Hmol_silvery_gibbon_NW_0226116511958178963521,
+		24 Ssyn_siamang_NC_0724441c3538573635379617,
+		25 Ggor_gorilla_ENSGGOP00000023446,
+		26 Hsap_human_ENSP00000344411,
+		27 Ptro_chimp_ENSPTRP00000044858,
+		28 Ppan_bonobo_ENSPPAP00000024462,
+		29 Gvar_flying_lemur_NW_0077277481c204468201306,
+		30 Mmur_mouse_lemur_ENSMICP00000043915,
+		31 Pcoq_shifaka_ENSPCOP00000017626,
+		32 Psim_greater_bamboo_lemur_ENSPSMP00000018490,
+		33 Lcat_ringtailed_NC_0591301c126337882126333597
 		;
-tree 'PAUP_1' = [&U] (1,((((2,(4,(5,6))),3),(((7,((((8,11),9),10),((12,13),(14,15)))),(16,(17,((18,19),20)))),(((21,22),((23,24),25)),(26,(27,(28,29))#1)))),30),((31,(33,34)),32));
+tree 'PAUP_1' = [&U] (1,((((2,(4,(5,6))),3),(((7,((((8,11),9),10),((12,13),(14,15)))),(16,(17,(18,19)))),(((20,21),((22,23),24)),(25,(26,(27,28)))))),29),((30,(32,33)),31));
 End;

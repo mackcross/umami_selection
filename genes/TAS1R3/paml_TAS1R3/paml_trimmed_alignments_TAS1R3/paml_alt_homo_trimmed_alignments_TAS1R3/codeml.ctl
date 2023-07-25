@@ -1,5 +1,5 @@
       seqfile = paml_alt_homo_trimmed_dna_aligned_combined_TAS1R3 * sequence data filename
-     treefile = paml_alt_homo_ML_tree_trimmed_dna_aligned_combined_TAS1R3.tre * tree file name
+     treefile = paml_alt_homo_ML_tree_trimmed_dna_aligned_combined_TAS1R3.txt * tree file name
 
       outfile = output_paml_alt_homo_trimmed_dna_aligned_combined_TAS1R3          * main result file name
    
