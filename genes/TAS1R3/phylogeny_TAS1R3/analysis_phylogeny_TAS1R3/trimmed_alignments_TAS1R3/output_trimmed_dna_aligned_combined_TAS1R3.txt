@@ -1,0 +1,580 @@
+
+P A U P *
+Version 4.0a (build 168) for Unix/Linux (built on Aug  2 2020 at 07:23:11)
+Mon Jul 31 13:24:52 2023
+
+
+Optimality criterion set to distance.
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = uncorrected ("p")
+  2562 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Neighbor-joining tree:
+
+/---------------------------------------- Ogar bushbaby ENSOGAP00000021276
+|
+|                                      /-------------- Cjac marmoset ENSCJAP00000020529
+|                                      |
+|                                      | /----------- Sbbo bolivian squirrel monkey EN
+|                                      +-+
+|                                /-----+ \--------- Cimi whitefaced capuchin NW 0161
+|                                |     |
+|                        /-------+     \---------- Anan night monkey ENSANAP0000001
+|                        |       |
+|                        |       \----------------------------------------------------------------------------------- Sape tufted capuchin NW 02243706
+|                        |
+|                        |                    /---- Csab vervet ENSCSAP00000017323
+|                        |                    |
+|                        |                    |   /-- Mnem pig tailed macaque ENSMNEP0
+|                        |                    |  /+
+|                        |                    |  |\- Mthi tibetan macaque NC 06557815
+|                        |               /----+  |
+|                        |               |    |/-+- Mmul macaque ENSMMUP00000078066
+|                        |               |    || |
+|                        |               |    || \- Mfas crab eating macaque NC 0522
+|                        |               |    ||
+|                        |               |    \+ / Caty sooty mangabey ENSCATP00000
+|                        |               |     +-+
+|                        |            /--+     | \- Mleu drill ENSMLEP00000011295
+|                        |            |  |     |
+|                        |            |  |     |/- Panu olive baboon ENSPANP0000001
+|        /---------------+            |  |     \+
+|        |               |            |  |      \- Tgel gelada NW 02025758311573518
+|        |               |            |  |
+|        |               |            |  | /------ Ptep red colobus NC 0454341c2204
+|        |               |            |  | |
+|        |               |            |  \-+/---- Cang blackwhite colobus NW 01211
+|        |               |            |    ||
+|        |               |            |    \+  /----------------------------------------- Rbie black snubnose ENSRBIP00000
+|        |               |      /-----+     \--+
+|        |               |      |     |        \- Rrox golden snubnose ENSRROP0000
+|        |               |      |     |
+|        |               |      |     |                 / Pabe sumatran orang ENSPPYP00000
+|        |               |      |     |        /--------+
+|        |               |      |     |        |        \ Ppyg bornean orangutan NC 072373
+|        |               |      |     |        |
+|   /----+               |      |     |        |    /-- Nleu whitecheeked gibbon NC 0444
+|   |    |               |      |     |        |    |
+|   |    |               |      |     |        |    +-- Hmol silvery gibbon NW 022611651
+|   |    |               |      |     |        +----+
+|   |    |               \------+     \--------+    \-- Ssyn siamang NC 0724441c35385736
+|   |    |                      |              |
+|   |    |                      |              |   /---- Ggor gorilla ENSGGOP00000023446
+|   |    |                      |              |   |
+|   |    |                      |              \---+/-- Hsap human ENSP00000344411
+|   |    |                      |                  ||
+\---+    |                      |                  \+/- Ptro chimp ENSPTRP00000044858
+    |    |                      |                   \+
+    |    |                      |                    \-- Ppan bonobo ENSPPAP00000024462
+    |    |                      |
+    |    |                      \------------------------------------------------ Tfra leaf monkey NW 0226814571c1
+    |    |
+    |    \------------------------------------ Gvar flying lemur NW 0077277481c
+    |
+    |          /-------------------- Mmur mouse lemur ENSMICP00000043
+    |          |
+    \----------+/-------------- Pcoq shifaka ENSPCOP00000017626
+               ||
+               \+          /------ Psim greater bamboo lemur ENSPSM
+                \----------+
+                           \---- Lcat ringtailed NC 0591301c12633
+
+Tree found by neighbor-joining method stored in tree buffer
+Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+Optimality criterion set to likelihood.
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2562 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = GTR+I+G
+
+    Number of distinct data patterns under this model = 1026
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 28 physical (56 logical) processors
+
+Tree             1
+------------------
+-ln L    19356.369
+Exchangeabilities (R):
+  AC       1.37015
+  AG       5.08616
+  AT       0.83302
+  CG       0.99154
+  CT       3.85213
+  GT       1.00000
+Shape     1.258553
+P_inv     0.116669
+
+Time used to compute likelihoods = 7.18 sec (CPU time = 7.19 sec)
+
+Heuristic search settings:
+  Optimality criterion = likelihood
+    2562 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                  DNA substitution types = 6
+                       Exchangeabilities = AC=1.37015 AG=5.08616 AT=0.833017 CG=0.991538 CT=3.85213 GT=1
+                       State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+          Proportion of invariable sites = 0.116669
+                 Rates at variable sites = gamma, shape=1.25855 (4 categories [mean])
+                    Model correspondence = GTR+I+G
+
+      Number of distinct data patterns under this model = 1026
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Trees with approximate log likelihoods 5% or further from the target score are rejected without additional iteration
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Using standard Felsenstein pruning for computing likelihoods
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 28 physical (56 logical) processors
+
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 100
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 37002
+  Score of best tree(s) found = 19230.33
+  Number of trees retained = 1
+  Time used = 00:15:12 (CPU time = 00:15:09.8)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1        19230.33            1     100
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2562 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = AC=1.37015 AG=5.08616 AT=0.833017 CG=0.991538 CT=3.85213 GT=1
+                     State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+        Proportion of invariable sites = 0.116669
+               Rates at variable sites = gamma, shape=1.25855 (4 categories [mean])
+                  Model correspondence = GTR+I+G
+
+    Number of distinct data patterns under this model = 1026
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 28 physical (56 logical) processors
+
+Tree             1
+------------------
+-ln L    19230.328
+
+Time used to compute likelihoods = 0.05 sec (CPU time = 0.05 sec)
+
+Heuristic search settings:
+  Optimality criterion = likelihood
+    2562 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                  DNA substitution types = 6
+                       Exchangeabilities = estimated
+             GTR submodel classification = unrestricted
+                       State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+          Proportion of invariable sites = estimated
+                 Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                    Model correspondence = GTR+I+G
+
+      Number of distinct data patterns under this model = 1026
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Trees with approximate log likelihoods 5% or further from the target score are rejected without additional iteration
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+      Multidimensional optimizer = Praxis (tol=0.0001)
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Using standard Felsenstein pruning for computing likelihoods
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 28 physical (56 logical) processors
+
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 100
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 47689
+  Score of best tree(s) found = 19229.36
+  Number of trees retained = 1
+  Time used = 83:31:25 (CPU time = 83:09:51.5)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1        19229.36            1     100
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2562 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = GTR+I+G
+
+    Number of distinct data patterns under this model = 1026
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 28 physical (56 logical) processors
+
+Tree             1
+------------------
+-ln L    19229.364
+Exchangeabilities (R):
+  AC       1.35662
+  AG       4.84724
+  AT       0.78985
+  CG       0.96638
+  CT       3.64592
+  GT       1.00000
+Shape     1.338316
+P_inv     0.112141
+
+Time used to compute likelihoods = 6.58 sec (CPU time = 6.57 sec)
+
+1 tree saved to file "/old_Users/mackcross/ML_tree_trimmed_dna_aligned_combined_TAS1R3.tre"
+
+Maxtrees reset to 150
+
+Bootstrap method with heuristic search:
+  Number of bootstrap replicates = 500
+  Starting seed = generated automatically
+  Number of characters resampled in each replicate = 2562
+  Optimality criterion = likelihood
+    2562 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                  DNA substitution types = 6
+                       Exchangeabilities = AC=1.35662 AG=4.84724 AT=0.789848 CG=0.966379 CT=3.64592 GT=1
+                       State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+          Proportion of invariable sites = 0.112141
+                 Rates at variable sites = gamma, shape=1.33832 (4 categories [mean])
+                    Model correspondence = GTR+I+G
+
+      Number of distinct data patterns under this model = 1026
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Trees with approximate log likelihoods 5% or further from the target score are rejected without additional iteration
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Using standard Felsenstein pruning for computing likelihoods
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 28 physical (56 logical) processors
+
+  Starting tree(s) obtained via neighbor-joining
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 150 (will be auto-increased by 100)
+  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+NOTE: Random-addition-sequence option is ignored when starting trees are obtained using neighbor-joining.
+
+  500 bootstrap replicates completed
+  Time used = 34:04:48 (CPU time = 33:57:42.3)
+
+Bootstrap 50% majority-rule consensus tree
+
+/---------------------------------------------------------------------------------------------------------------- Ogar bushbaby ENSOGAP00000021276(1)
+|
+|                                                                                /------------------------------- Cjac marmoset ENSCJAP00000020529(2)
+|                                                                                |
+|                                                                                +------------------------------- Anan night monkey ENSANAP0000001(3)
+|                              /-----------------------100-----------------------+
+|                              |                                                 |          /-------------------- Sbbo bolivian squirrel monkey EN(4)
+|                              |                                                 |          |
+|                              |                                                 \----93----+         /---------- Sape tufted capuchin NW 02243706(5)
+|                              |                                                            \---100---+
+|                              |                                                                      \---------- Cimi whitefaced capuchin NW 0161(6)
+|                              |
+|                              |                             /--------------------------------------------------- Csab vervet ENSCSAP00000017323(7)
+|                              |                             |
+|                              |                             |                                        /---------- Mnem pig tailed macaque ENSMNEP0(8)
+|                              |                             |                              /---70----+
+|                              |                             |                              |         \---------- Mthi tibetan macaque NC 06557815(11)
+|                              |                   /---100---+                   /----60----+
+|                              |                   |         |         /---100---+          \-------------------- Mmul macaque ENSMMUP00000078066(9)
+|                              |                   |         |         |         |
+|                   /---100----+                   |         |         |         \------------------------------- Mfas crab eating macaque NC 0522(10)
+|                   |          |                   |         |         |
+|                   |          |                   |         \---87----+                              /---------- Caty sooty mangabey ENSCATP00000(12)
+|                   |          |                   |                   |                    /---100---+
+|                   |          |         /---100---+                   |                    |         \---------- Mleu drill ENSMLEP00000011295(13)
+|                   |          |         |         |                   \---------52---------+
+|                   |          |         |         |                                        |         /---------- Panu olive baboon ENSPANP0000001(14)
+|                   |          |         |         |                                        \---100---+
+|                   |          |         |         |                                                  \---------- Tgel gelada NW 02025758311573518(15)
+|                   |          |         |         |
+|                   |          |         |         |                   /----------------------------------------- Ptep red colobus NC 0454341c2204(16)
+|                   |          |         |         |                   |
+|                   |          |         |         \--------100--------+         /------------------------------- Cang blackwhite colobus NW 01211(17)
+|                   |          |         |                             |         |
+|                   |          |         |                             \---60----+                    /---------- Rbie black snubnose ENSRBIP00000(18)
+|                   |          |         |                                       |          /---100---+
+|                   |          \---100---+                                       |          |         \---------- Rrox golden snubnose ENSRROP0000(19)
+|                   |                    |                                       \----90----+
+|                   |                    |                                                  \-------------------- Tfra leaf monkey NW 0226814571c1(20)
+|         /---98----+                    |
+|         |         |                    |                                                            /---------- Pabe sumatran orang ENSPPYP00000(21)
+|         |         |                    |                                       /--------100---------+
+|         |         |                    |                                       |                    \---------- Ppyg bornean orangutan NC 072373(22)
+|         |         |                    |                                       |
+|         |         |                    |                             /---71----+                    /---------- Nleu whitecheeked gibbon NC 0444(23)
+|         |         |                    |                             |         |          /---59----+
+|         |         |                    |                             |         |          |         \---------- Hmol silvery gibbon NW 022611651(24)
+|         |         |                    |                             |         \---100----+
+|         |         |                    \-------------100-------------+                    \-------------------- Ssyn siamang NC 0724441c35385736(25)
+|         |         |                                                  |
+|         |         |                                                  |         /------------------------------- Ggor gorilla ENSGGOP00000023446(26)
+\---------+         |                                                  |         |
+          |         |                                                  \---100---+          /-------------------- Hsap human ENSP00000344411(27)
+          |         |                                                            |          |
+          |         |                                                            \----97----+         /---------- Ptro chimp ENSPTRP00000044858(28)
+          |         |                                                                       \---100---+
+          |         |                                                                                 \---------- Ppan bonobo ENSPPAP00000024462(29)
+          |         |
+          |         \-------------------------------------------------------------------------------------------- Gvar flying lemur NW 0077277481c(30)
+          |
+          |                                                                                 /-------------------- Mmur mouse lemur ENSMICP00000043(31)
+          |                                                                                 |
+          |                                                                      /----52----+         /---------- Psim greater bamboo lemur ENSPSM(33)
+          |                                                                      |          \---100---+
+          \---------------------------------100----------------------------------+                    \---------- Lcat ringtailed NC 0591301c12633(34)
+                                                                                 |
+                                                                                 \------------------------------- Pcoq shifaka ENSPCOP00000017626(32)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+         1         2         3   3
+1234567890123456789012345678901234          Freq        %
+---------------------------------------------------------
+................................**        500.00  100.00%
+..............................****        500.00  100.00%
+...........................**.....        500.00  100.00%
+.........................****.....        500.00  100.00%
+......................***.........        500.00  100.00%
+....................**............        500.00  100.00%
+....................*********.....        500.00  100.00%
+...............*****..............        500.00  100.00%
+.............**...................        500.00  100.00%
+...........**.....................        500.00  100.00%
+.......****.......................        500.00  100.00%
+......*********...................        500.00  100.00%
+......**************..............        500.00  100.00%
+......***********************.....        500.00  100.00%
+....**............................        500.00  100.00%
+.*****............................        500.00  100.00%
+.****************************.....        500.00  100.00%
+.................**...............        499.50   99.90%
+.*****************************....        490.00   98.00%
+..........................***.....        487.00   97.40%
+...***............................        464.00   92.80%
+.................***..............        448.85   89.77%
+.......********...................        437.00   87.40%
+....................*****.........        356.00   71.20%
+.......*..*.......................        348.00   69.60%
+.......**.*.......................        301.33   60.27%
+................****..............        300.76   60.15%
+......................**..........        296.45   59.29%
+...........****...................        262.02   52.40%
+..............................*.**        260.00   52.00%
+...............................***        235.00   47.00%
+.**...............................        227.50   45.50%
+.*.***............................        197.50   39.50%
+...............*.***..............        141.33   28.27%
+....................**...****.....        139.00   27.80%
+.......******.....................        135.17   27.03%
+.......**.........................        133.50   26.70%
+.......................**.........        121.17   24.23%
+..****............................         74.00   14.80%
+.........**.......................         73.00   14.60%
+......*....****...................         58.83   11.77%
+......................*.*.........         56.82   11.36%
+......*......**...................         41.00    8.20%
+.......***........................         38.00    7.60%
+...............*...*..............         35.67    7.13%
+................***...............         33.85    6.77%
+...............**.................         32.83    6.57%
+
+15 groups at (relative) frequency less than 5% not shown
+
+Tree description:
+
+  Unrooted tree(s) rooted using outgroup method
+
+  Note: No outgroup has been defined; tree is (arbitrarily) rooted at first taxon.
+  Optimality criterion = likelihood
+    2562 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                  DNA substitution types = 6
+                       Exchangeabilities = AC=1.35662 AG=4.84724 AT=0.789848 CG=0.966379 CT=3.64592 GT=1
+                       State frequencies = empirical: A=0.151392 C=0.338369 G=0.324183 T=0.186056
+          Proportion of invariable sites = 0.112141
+                 Rates at variable sites = gamma, shape=1.33832 (4 categories [mean])
+                    Model correspondence = GTR+I+G
+
+      Number of distinct data patterns under this model = 1026
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Using standard Felsenstein pruning for computing likelihoods
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 28 physical (56 logical) processors
+
+Tree 1 (rooted using default outgroup)
+
+-Ln likelihood = 19232.828
+
+/----------------------------- Ogar bushbaby ENSOGAP00000021276
+|
+|                                     /-------- Cjac marmoset ENSCJAP00000020529
+|                                     |
+|                                     +------ Anan night monkey ENSANAP0000001
+|                         /----------37
+|                         |           | /------ Sbbo bolivian squirrel monkey EN
+|                         |           | |
+|                         |           \36  /------------------------------------------------------------------------- Sape tufted capuchin NW 02243706
+|                         |             \-35
+|                         |                \- Cimi whitefaced capuchin NW 0161
+|                         |
+|                         |              /-- Csab vervet ENSCSAP00000017323
+|                         |              |
+|                         |              | /- Mnem pig tailed macaque ENSMNEP0
+|                         |              |38
+|                         |              | +- Mthi tibetan macaque NC 06557815
+|                         |            /4539
+|                         |            | |40 Mmul macaque ENSMMUP00000078066
+|                         |            | |||
+|        /---------------60            | ||\ Mfas crab eating macaque NC 0522
+|        |                |            | ||
+|        |                |            | 44/ Caty sooty mangabey ENSCATP00000
+|        |                |            |  41
+|        |                |       /---50  |\ Mleu drill ENSMLEP00000011295
+|        |                |       |    | 43
+|        |                |       |    |  +- Panu olive baboon ENSPANP0000001
+|        |                |       |    | 42
+|        |                |       |    |  \- Tgel gelada NW 02025758311573518
+|        |                |       |    |
+|        |                |       |    | /--- Ptep red colobus NC 0454341c2204
+|        |                |       |    | |
+|        |                |       |    \49-- Cang blackwhite colobus NW 01211
+|        |                |       |      |
+|        |                |       |     48 /------------------------- Rbie black snubnose ENSRBIP00000
+|        |                |       |      |46
+|        |                \------59      ||\ Rrox golden snubnose ENSRROP0000
+|        |                        |      47
+|        |                        |       \------------------------------------ Tfra leaf monkey NW 0226814571c1
+|  /----61                        |
+|  |     |                        |       / Pabe sumatran orang ENSPPYP00000
+|  |     |                        |  /---51
+|  |     |                        |  |    \ Ppyg bornean orangutan NC 072373
+|  |     |                        |  |
+|  |     |                        | 54  /- Nleu whitecheeked gibbon NC 0444
+|  |     |                        |  | 52
+|  |     |                        |  |  +- Hmol silvery gibbon NW 022611651
+|  |     |                        |  +-53
+|  |     |                        \-58  \- Ssyn siamang NC 0724441c35385736
+|  |     |                           |
+|  |     |                           | /--- Ggor gorilla ENSGGOP00000023446
+\-65     |                           | |
+   |     |                           \57/- Hsap human ENSP00000344411
+   |     |                             ||
+   |     |                             56/ Ptro chimp ENSPTRP00000044858
+   |     |                              55
+   |     |                               \- Ppan bonobo ENSPPAP00000024462
+   |     |
+   |     \------------------------ Gvar flying lemur NW 0077277481c
+   |
+   |          /------------ Mmur mouse lemur ENSMICP00000043
+   |          |
+   |        /63     /--- Psim greater bamboo lemur ENSPSM
+   |        | \----62
+   \-------64       \-- Lcat ringtailed NC 0591301c12633
+            |
+            \------- Pcoq shifaka ENSPCOP00000017626
+
+1 tree saved to file "/old_Users/mackcross/bootstrap_trimmed_dna_aligned_combined_TAS1R3.tre"
+
+Processing of input file "trimmed_dna_aligned_combined_TAS1R3.nex" completed.
+
+paup>

@@ -1,7 +1,7 @@
       seqfile = paml_alt_apes_trimmed_dna_aligned_combined_TAS1R3 * sequence data filename
      treefile = paml_alt_apes_ML_tree_trimmed_dna_aligned_combined_TAS1R3.txt * tree file name
 
-      outfile = output_paml_alt_apes_trimmed_dna_aligned_combined_TAS1R3          * main result file name
+      outfile = output_paml_alt_apes_trimmed_dna_aligned_combined_TAS1R3         * main result file name
    
         noisy = 9  * 0,1,2,3,9: how much rubbish on the screen
       verbose = 2  * 0: concise; 1: detailed, 2: too much
