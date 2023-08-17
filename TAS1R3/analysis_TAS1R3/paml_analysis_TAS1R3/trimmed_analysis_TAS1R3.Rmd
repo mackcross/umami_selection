@@ -1,0 +1,80 @@
+---
+title: "analysis"
+output: html_document
+date: "2023-04-28"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+rm(list=ls())
+```
+
+
+# TAS1R3 Trimmed Alignment Analysis 
+
+## Degrees of Freedom 
+The number of null parameters was 70, while the alternative parameters for apes, homininae, hominini, and homo were all 71. Therefore, the degrees of freedom is one. 
+```{r}
+freedom <- 1 
+```
+
+## Null Model
+```{r}
+null_likelihood <- -18530.634928
+```
+
+## Apes Foreground 
+```{r}
+ape_likelihood <- -18529.383666 
+
+ape_statistic <- 2 * (ape_likelihood - null_likelihood)
+p_value <- 1 - pchisq(ape_statistic, freedom) 
+
+resultsdf <- data.frame(name = "trimmed_ape", likelihood_ratio_test = ape_statistic, p_value = p_value)
+```
+
+## Homininae Foreground
+```{r}
+homininae_likelihood <- -18529.969914
+
+homininae_statistic <- 2 * (homininae_likelihood - null_likelihood)
+p_value1 <- 1 - pchisq(homininae_statistic, freedom) 
+
+resultsdf1 <- data.frame(name = "trimmed_homininae", likelihood_ratio_test = homininae_statistic, p_value = p_value1)
+resultsdf <- rbind(resultsdf, resultsdf1)
+```
+
+## Hominini Foreground
+```{r}
+hominini_likelihood <- -18526.558672
+
+hominini_statistic <- 2 * (hominini_likelihood - null_likelihood)
+p_value2 <- 1 - pchisq(hominini_statistic, freedom) 
+
+resultsdf2 <- data.frame(name = "trimmed_hominini", likelihood_ratio_test = hominini_statistic, p_value = p_value2)
+resultsdf <- rbind(resultsdf, resultsdf2)
+```
+
+## Homo Foreground
+```{r}
+homo_likelihood <- -18530.358452
+
+homo_statistic <- 2 * (homo_likelihood - null_likelihood)
+p_value3 <- 1 - pchisq(homo_statistic, freedom) 
+
+resultsdf3 <- data.frame(name = "trimmed_homo", likelihood_ratio_test = homo_statistic, p_value = p_value3)
+resultsdf <- rbind(resultsdf, resultsdf3)
+```
+
+
+
+
+
+
+
+
+
+
