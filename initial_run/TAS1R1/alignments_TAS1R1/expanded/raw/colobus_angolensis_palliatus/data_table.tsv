@@ -1,0 +1,3 @@
+gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
+105509158	TAS1R1	taste 1 receptor member 1	Colobus angolensis palliatus		336983	NW_012114822.1:2560650-2585036	-	chr Un	PROTEIN_CODING	XM_011938268.1	transcript variant X2	2375	XM_011938268.1:443-2206	XP_011793658.1	isoform X2	587	taste receptor type 1 member 1
+105509158	TAS1R1	taste 1 receptor member 1	Colobus angolensis palliatus		336983	NW_012114822.1:2560650-2585036	-	chr Un	PROTEIN_CODING	XM_011938267.1	transcript variant X1	3137	XM_011938267.1:443-2968	XP_011793657.1	isoform X1	841	taste receptor type 1 member 1

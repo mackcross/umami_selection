@@ -1,0 +1,3 @@
+gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
+116812853	TAS1R1	taste 1 receptor member 1	Hylobates moloch	silvery gibbon	81572	NW_022611651.1:5907686-5933390	+	chr Un	PROTEIN_CODING	XM_032758757.1	transcript variant X1	2793	XM_032758757.1:97-2622	XP_032614648.1	isoform X1	841	taste receptor type 1 member 1
+116812853	TAS1R1	taste 1 receptor member 1	Hylobates moloch	silvery gibbon	81572	NW_022611651.1:5907686-5933390	+	chr Un	PROTEIN_CODING	XM_032758758.1	transcript variant X2	2002	XM_032758758.1:68-1831	XP_032614649.1	isoform X2	587	taste receptor type 1 member 1

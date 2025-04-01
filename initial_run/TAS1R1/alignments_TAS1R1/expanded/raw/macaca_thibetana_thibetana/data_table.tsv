@@ -1,0 +1,2 @@
+gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
+126952712	TAS1R1	taste 1 receptor member 1	Macaca thibetana thibetana		257877	NC_065578.1:5660421-5680919	+	chr 1	PROTEIN_CODING	XM_050787557.1		2717	XM_050787557.1:20-2545	XP_050643514.1		841	taste receptor type 1 member 1

@@ -1,0 +1,2 @@
+gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
+117093470	TAS1R3	taste 1 receptor member 3	Trachypithecus francoisi	Francois's langur	54180	NW_022681457.1:121430104-121435076	-	chr Un	PROTEIN_CODING	XM_033228766.1		4400	XM_033228766.1:1094-3751	XP_033084657.1		885	LOW QUALITY PROTEIN: taste receptor type 1 member 3
