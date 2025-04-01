@@ -1,2 +1,0 @@
-gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
-116812775	TAS1R3	taste 1 receptor member 3	Hylobates moloch	silvery gibbon	81572	NW_022611651.1:958178-963521	+	chr Un	PROTEIN_CODING	XM_032758588.1		4782	XM_032758588.1:1411-3969	XP_032614479.1		852	taste receptor type 1 member 3

@@ -1,3 +1,0 @@
-gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
-123634542	TAS1R1	taste 1 receptor member 1	Lemur catta	Ring-tailed lemur	9447	NC_059130.1:122684084-122692603	-	chr 3	PROTEIN_CODING	XM_045546257.1	transcript variant X1	2823	XM_045546257.1:102-2687	XP_045402213.1	isoform X1	861	taste receptor type 1 member 1
-123634542	TAS1R1	taste 1 receptor member 1	Lemur catta	Ring-tailed lemur	9447	NC_059130.1:122684084-122692603	-	chr 3	PROTEIN_CODING	XM_045546258.1	transcript variant X2	2032	XM_045546258.1:73-1896	XP_045402214.1	isoform X2	607	taste receptor type 1 member 1

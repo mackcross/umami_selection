@@ -1,2 +1,0 @@
-gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
-129010845	TAS1R3	taste 1 receptor member 3	Pongo pygmaeus	Bornean orangutan	9600	NC_072373.1:228733874-228738522	-	chr 1	PROTEIN_CODING	XM_054445384.1		4089	XM_054445384.1:451-3009	XP_054301359.1		852	taste receptor type 1 member 3

@@ -1,2 +1,0 @@
-gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
-103225686	TAS1R1	taste 1 receptor member 1	Chlorocebus sabaeus	green monkey	60711	NW_023666054.1:29212342-29221233	-	chr Un	PROTEIN_CODING	XM_037985092.1		2520	XM_037985092.1:57-2348	XP_037841020.1		763	taste receptor type 1 member 1

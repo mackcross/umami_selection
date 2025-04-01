@@ -1,2 +1,0 @@
-gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
-112617033	LOC112617033	taste receptor type 1 member 3	Theropithecus gelada	gelada	9565	NW_020257583.1:15735-18970	+	chr Un	PROTEIN_CODING	XM_025373764.1		2672	XM_025373764.1:1-2559	XP_025229549.1		852	taste receptor type 1 member 3

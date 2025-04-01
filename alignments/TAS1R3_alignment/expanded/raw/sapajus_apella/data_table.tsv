@@ -1,2 +1,0 @@
-gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
-116539286	TAS1R3	taste 1 receptor member 3	Sapajus apella	tufted capuchin	9515	NW_022437067.1:484539-489669	+	chr Un	PROTEIN_CODING	XM_032262065.1		4486	XM_032262065.1:1093-3648	XP_032117956.1		851	LOW QUALITY PROTEIN: taste receptor type 1 member 3
