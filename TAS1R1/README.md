@@ -1,0 +1,1 @@
+On 5/1/25, I downloaded data from Ensembl for TAS1R1 (ENSG00000173662). I downloaded all 23 primate orthologues. I noted that there were 3 primates in Ensembl without a TAS1R1 orthologue, which included Angola colobus (Colobus angolensis palliatus), Ugandan red Colobus (Piliocolobus tephrosceles) and Gelada (Theropithecus gelada). 
