@@ -1,1 +1,6 @@
 On 5/1/25, I downloaded data from Ensembl for TAS1R3 (ENSG00000169962). I downloaded all 20 primate orthologues. Interestingly, I noted that there were primates in Ensembl without TAS1R3 ortholgue, which included the Tarsier (Carlito syrichta), Angola colobus (Colobus angolensis palliatus), Crab-eating macaque (Macaca fascicularis), Gibbon (Nomascus leucogenys), Ugandan red Colobus (Piliocolobus tephrosceles), and Gelada (Theropithecus gelada). Further, primates close relative, the tree shrew (Tupaia Belangeri) also did not have an orthologue. 
+
+On 6/9/2025, I worked with both the protein and DNA alignments from 
+Ensembl. I aligned the protein with muscle, then aligned the DNA to be    
+consistent with the protein alignment. 
+
