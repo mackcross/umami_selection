@@ -1,6 +1,1 @@
-On 5/1/25, I downloaded data from Ensembl for TAS1R3 (ENSG00000169962). I downloaded all 20 primate orthologues. Interestingly, I noted that there were primates in Ensembl without TAS1R3 ortholgue, which included the Tarsier (Carlito syrichta), Angola colobus (Colobus angolensis palliatus), Crab-eating macaque (Macaca fascicularis), Gibbon (Nomascus leucogenys), Ugandan red Colobus (Piliocolobus tephrosceles), and Gelada (Theropithecus gelada). Further, primates close relative, the tree shrew (Tupaia Belangeri) also did not have an orthologue. 
-
-On 6/9/2025, I worked with both the protein and DNA alignments from 
-Ensembl. I aligned the protein with muscle, then aligned the DNA to be    
-consistent with the protein alignment. 
-
+On 8/22/25, I downloaded the TAS1R3 orthologues for all primates and rodents / related species in Ensembl. For some reason, tree shrews were categorized within "rodents / related species" despite being more closely related to primates than rodents. Therefore, I deleted all species in rodents / related species aside from tree shrews, as I wanted the tree shrew to serve as the outgroup. Next, I changed the Ensembl names to match the species name. I created a separate file "Ensembl_Names" where I pasted the original Ensembl names for each of the sequences and their new name for my analysis, which can serve as a key. 
