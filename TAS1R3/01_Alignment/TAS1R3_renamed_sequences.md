@@ -40,3 +40,17 @@ ENSMUSP00000030949_Mmus/1-2574 -> removed; Mus musculus (Mouse)
 ENSMSPP00010022179_Mspr/1-2574 -> removed; Mus spretus (Western wild mouse)
 ENSRNOP00000026671_Rnor/1-2574 -> removed; Rattus norvegicus (Norway Rat)
 ENSP00000344411_Hsap/1-2556 -> Homo_sapiens
+XM_032758588.2 PREDICTED: Hylobates moloch taste 1 receptor member 3 (TAS1R3), mRNA -> Hylobates_moloch
+XM_055261243.2 PREDICTED: Symphalangus syndactylus taste 1 receptor member 3 (TAS1R3), transcript variant X1, mRNA -> Symphalangus_syndactylus
+XM_054445384.2 PREDICTED: Pongo pygmaeus taste 1 receptor member 3 (TAS1R3), mRNA -> Pongo_pygmaeus
+XM_025373764.1 PREDICTED: Theropithecus gelada taste receptor type 1 member 3 (LOC112617033), mRNA -> Theropithecus_gelada
+XM_011956392.1 PREDICTED: Colobus angolensis palliatus taste receptor type 1 member 3 (LOC105522018), mRNA -> Colobus_angolensis
+XM_023192814.3 PREDICTED: Piliocolobus tephrosceles taste 1 receptor member 3 (TAS1R3), transcript variant X1, mRNA -> Piliocolobus_tephrosceles
+XM_033228766.1 PREDICTED: Trachypithecus francoisi taste 1 receptor member 3 (TAS1R3), mRNA -> Trachypithecus_francoisi
+XM_069464687.1 PREDICTED: Eulemur rufifrons taste 1 receptor member 3 (TAS1R3), mRNA -> Eulemur_rufifrons
+XM_045548781.1 PREDICTED: Lemur catta taste 1 receptor member 3 (TAS1R3), mRNA -> Lemur_catta
+XM_008578143.1 PREDICTED: Galeopterus variegatus taste receptor type 1 member 3 (LOC103594863), mRNA -> Galeopterus_variegatus
+XM_063104156.1 PREDICTED: Cynocephalus volans taste 1 receptor member 3 (TAS1R3), mRNA -> Cynocephalus_volans
+XM_053576665.1 PREDICTED: Nycticebus coucang taste 1 receptor member 3 (TAS1R3), mRNA -> Nycticebus_coucang
+XM_003793299.2 PREDICTED: Otolemur garnettii taste 1 receptor member 3 (TAS1R3), mRNA -> Otolemur_garnettii
+XM_006164166.1 PREDICTED: Tupaia chinensis taste 1 receptor member 3 (TAS1R3), mRNA -> Tupaia_chinensis
