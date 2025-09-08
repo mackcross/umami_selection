@@ -55,7 +55,7 @@ XM_011938267.1 PREDICTED: Colobus angolensis palliatus taste receptor type 1 mem
 XM_073007884.1 PREDICTED: Chlorocebus sabaeus taste 1 receptor member 1 (TAS1R1), transcript variant X2, mRNA -> removed; forgot I had this sequence from Ensembl
 XM_069477291.1 PREDICTED: Eulemur rufifrons taste 1 receptor member 1 (TAS1R1), transcript variant X1, mRNA -> Eulemur_rufifrons
 XM_045546257.1 PREDICTED: Lemur catta taste 1 receptor member 1 (TAS1R1), transcript variant X1, mRNA -> Lemur_catta
-XM_063105692.1 PREDICTED: Cynocephalus volans taste 1 receptor member 1 (TAS1R1), mRNA -> Cynocephalus_volans
+XM_063105692.1 PREDICTED: Cynocephalus volans taste 1 receptor member 1 (TAS1R1), mRNA -> removed; the Cynocephalus volans didn't have a good amino acid reference that I could find on BLAST, and it really needed one in order to make appropriate decisions on removing indels, so I removed it. 
 XM_053577143.1 PREDICTED: Nycticebus coucang taste 1 receptor member 1 (TAS1R1), mRNA -> removed; it doesn't appear to include start position 
 XM_008566998.1 PREDICTED: Galeopterus variegatus taste receptor type 1 member 1 (LOC103585895), transcript variant X1, mRNA -> Galeopterus_variegatus
 XM_008049450.2 PREDICTED: Carlito syrichta taste 1 receptor member 1 (TAS1R1), mRNA -> removed; forgot that I already had this sequence from Ensembl--perhaps I need coffee
