@@ -1,0 +1,38 @@
+#!/bin/bash
+#$ -S /bin/bash
+#$ -N raxml_array
+#$ -cwd
+#$ -pe smp 8
+#$ -l mem_free=8G
+#$ -t 1-2
+#$ -o logs/
+#$ -e logs/
+
+echo "Job started on $(date)"
+echo "Task ID: $SGE_TASK_ID"
+
+# 1. Map task ID to gene name
+GENES=(TAS1R1 TAS1R3)
+GENE=${GENES[$((SGE_TASK_ID-1))]}
+
+# 2. Define paths
+BASE_DIR=$HOME/projects/umami_selection/$GENE
+ALIGNMENT=$BASE_DIR/01_Alignment/${GENE}_DNA_alignment.fa
+OUTPUT_DIR=$BASE_DIR/02_Phylogeny
+
+# 3. Make output directory
+mkdir -p $OUTPUT_DIR
+
+# 4. Move into output directory (so results land here)
+cd $OUTPUT_DIR
+
+# 5. Run RAxML-NG
+$HOME/bin/raxml-ng \
+  --msa $ALIGNMENT \
+  --model GTR+G \
+  --prefix ${GENE}_ML \
+  --seed 12345 \
+  --threads 8 \
+  --tree pars{10},rand{10}
+
+echo "Finished $GENE on $(date)"

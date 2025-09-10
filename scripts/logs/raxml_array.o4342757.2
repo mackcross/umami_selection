@@ -1,0 +1,164 @@
+Job started on Wed Sep 10 14:00:05 CDT 2025
+Task ID: 2
+
+RAxML-NG v. 1.2.2-master released on 30.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz, 40 cores, 376 GB RAM
+
+RAxML-NG was called at 10-Sep-2025 14:00:05 as follows:
+
+/Users/mackcross/bin/raxml-ng --msa /Users/mackcross/projects/umami_selection/TAS1R3/01_Alignment/TAS1R3_DNA_alignment.fa --model GTR+G --prefix TAS1R3_ML --seed 12345 --threads 8 --tree pars{10},rand{10}
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 12345
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (8 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: /Users/mackcross/projects/umami_selection/TAS1R3/01_Alignment/TAS1R3_DNA_alignment.fa
+[00:00:00] Loaded alignment with 33 taxa and 2566 sites
+
+WARNING: Fully undetermined columns found: 1
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /old_Users/mackcross/projects/umami_selection/TAS1R3/02_Phylogeny/TAS1R3_ML.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 935 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2565 / 935
+Gaps: 0.30 %
+Invariant sites: 52.05 %
+
+
+NOTE: Binary MSA file created: TAS1R3_ML.raxml.rba
+
+Parallelization scheme autoconfig: 8 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 33 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 33 taxa
+Parallel parsimony with 8 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 935 / 14960
+[00:00:00] Data distribution: max. searches per worker: 3
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -33277.086138] Initial branch length optimization
+[00:00:00 -27725.880085] Model parameter optimization (eps = 10.000000)
+[00:00:00 -24492.265074] AUTODETECT spr round 1 (radius: 5)
+[00:00:01 -17401.215298] AUTODETECT spr round 2 (radius: 10)
+[00:00:01 -17339.462137] AUTODETECT spr round 3 (radius: 15)
+[00:00:01 -17338.939507] AUTODETECT spr round 4 (radius: 20)
+[00:00:01 -17338.895750] SPR radius for FAST iterations: 15 (autodetect)
+[00:00:01 -17338.895750] Model parameter optimization (eps = 3.000000)
+[00:00:02 -17217.918441] FAST spr round 1 (radius: 15)
+[00:00:02 -16980.666797] FAST spr round 2 (radius: 15)
+[00:00:02 -16979.328317] Model parameter optimization (eps = 1.000000)
+[00:00:03 -16975.442244] SLOW spr round 1 (radius: 5)
+[00:00:03 -16974.337934] SLOW spr round 2 (radius: 10)
+[00:00:03] [worker #2] ML tree search #3, logLikelihood: -16974.231744
+[00:00:04 -16974.336626] SLOW spr round 3 (radius: 15)
+[00:00:04 -16974.336625] SLOW spr round 4 (radius: 20)
+[00:00:04 -16974.336625] SLOW spr round 5 (radius: 25)
+[00:00:04 -16974.336625] Model parameter optimization (eps = 0.100000)
+[00:00:04] [worker #7] ML tree search #8, logLikelihood: -16974.238540
+
+[00:00:04] [worker #0] ML tree search #1, logLikelihood: -16974.242223
+
+[00:00:04] [worker #5] ML tree search #6, logLikelihood: -16974.940303
+[00:00:04 -33617.724780] Initial branch length optimization
+[00:00:04 -28459.844710] Model parameter optimization (eps = 10.000000)
+[00:00:04] [worker #1] ML tree search #2, logLikelihood: -16974.234027
+[00:00:04] [worker #3] ML tree search #4, logLikelihood: -16974.239449
+[00:00:05] [worker #4] ML tree search #5, logLikelihood: -16974.234780
+[00:00:05] [worker #6] ML tree search #7, logLikelihood: -16974.238145
+[00:00:05 -24977.836628] AUTODETECT spr round 1 (radius: 5)
+[00:00:06 -17561.817939] AUTODETECT spr round 2 (radius: 10)
+[00:00:06] [worker #2] ML tree search #11, logLikelihood: -16974.233400
+[00:00:06 -17557.314516] AUTODETECT spr round 3 (radius: 15)
+[00:00:06 -17556.579866] AUTODETECT spr round 4 (radius: 20)
+[00:00:06 -17556.468623] AUTODETECT spr round 5 (radius: 25)
+[00:00:06 -17556.451903] SPR radius for FAST iterations: 20 (autodetect)
+[00:00:06 -17556.451903] Model parameter optimization (eps = 3.000000)
+[00:00:07 -17371.762933] FAST spr round 1 (radius: 20)
+[00:00:07] [worker #5] ML tree search #14, logLikelihood: -16974.233564
+[00:00:07 -16979.178290] FAST spr round 2 (radius: 20)
+[00:00:07 -16977.776111] Model parameter optimization (eps = 1.000000)
+[00:00:07] [worker #7] ML tree search #16, logLikelihood: -16974.964053
+[00:00:07 -16975.367325] SLOW spr round 1 (radius: 5)
+[00:00:07] [worker #3] ML tree search #12, logLikelihood: -16974.962351
+[00:00:07] [worker #4] ML tree search #13, logLikelihood: -16974.228020
+[00:00:08] [worker #6] ML tree search #15, logLikelihood: -16974.232864
+[00:00:08 -16974.276230] SLOW spr round 2 (radius: 10)
+[00:00:08] [worker #2] ML tree search #19, logLikelihood: -16974.233497
+[00:00:08 -16974.274203] SLOW spr round 3 (radius: 15)
+[00:00:09 -16974.274201] SLOW spr round 4 (radius: 20)
+[00:00:09 -16974.274201] SLOW spr round 5 (radius: 25)
+[00:00:09 -16974.274201] Model parameter optimization (eps = 0.100000)
+
+[00:00:09] [worker #0] ML tree search #9, logLikelihood: -16974.231339
+
+[00:00:09 -21545.830152] Initial branch length optimization
+[00:00:09 -18086.493060] Model parameter optimization (eps = 10.000000)
+[00:00:09] [worker #1] ML tree search #10, logLikelihood: -16974.238847
+[00:00:09 -16978.820126] AUTODETECT spr round 1 (radius: 5)
+[00:00:09 -16977.209797] AUTODETECT spr round 2 (radius: 10)
+[00:00:10] [worker #3] ML tree search #20, logLikelihood: -16974.233420
+[00:00:10 -16977.197889] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:10 -16977.197889] Model parameter optimization (eps = 3.000000)
+[00:00:10 -16976.748112] FAST spr round 1 (radius: 5)
+[00:00:10 -16975.391122] Model parameter optimization (eps = 1.000000)
+[00:00:10 -16975.319226] SLOW spr round 1 (radius: 5)
+[00:00:11 -16974.252487] SLOW spr round 2 (radius: 10)
+[00:00:11 -16974.251421] SLOW spr round 3 (radius: 15)
+[00:00:11 -16974.251420] SLOW spr round 4 (radius: 20)
+[00:00:11 -16974.251420] SLOW spr round 5 (radius: 25)
+[00:00:11 -16974.251420] Model parameter optimization (eps = 0.100000)
+
+[00:00:12] [worker #0] ML tree search #17, logLikelihood: -16974.228792
+
+[00:00:12] [worker #1] ML tree search #18, logLikelihood: -16974.229519
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.461318 (ML),  weights&rates: (0.250000,0.026462) (0.250000,0.225915) (0.250000,0.789946) (0.250000,2.957677) 
+   Base frequencies (ML): 0.169852 0.323803 0.309858 0.196487 
+   Substitution rates (ML): 2.098963 12.607889 1.252318 1.623949 9.190974 1.000000 
+
+
+Final LogLikelihood: -16974.228020
+
+AIC score: 34092.456040 / AICc score: 34096.674338 / BIC score: 34513.635430
+Free parameters (model + branch lengths): 72
+
+Best ML tree saved to: /old_Users/mackcross/projects/umami_selection/TAS1R3/02_Phylogeny/TAS1R3_ML.raxml.bestTree
+All ML trees saved to: /old_Users/mackcross/projects/umami_selection/TAS1R3/02_Phylogeny/TAS1R3_ML.raxml.mlTrees
+Optimized model saved to: /old_Users/mackcross/projects/umami_selection/TAS1R3/02_Phylogeny/TAS1R3_ML.raxml.bestModel
+
+Execution log saved to: /old_Users/mackcross/projects/umami_selection/TAS1R3/02_Phylogeny/TAS1R3_ML.raxml.log
+
+Analysis started: 10-Sep-2025 14:00:05 / finished: 10-Sep-2025 14:00:17
+
+Elapsed time: 12.236 seconds
+
+Consumed energy: 0.839 Wh
+
+Finished TAS1R3 on Wed Sep 10 14:00:17 CDT 2025
