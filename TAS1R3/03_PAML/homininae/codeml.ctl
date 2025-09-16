@@ -1,7 +1,7 @@
       seqfile = ../TAS1R3_DNA_alignment.fa * sequence data filename
      treefile = TAS1R3_ML.raxml.bestTree * tree file name
 
-      outfile = TAS1R3_PAML_null          * main result file name
+      outfile = TAS1R3_PAML_homininae          * main result file name
    
         noisy = 9  * 0,1,2,3,9: how much rubbish on the screen
       verbose = 2  * 0: concise; 1: detailed, 2: too much
@@ -11,7 +11,7 @@
       seqtype = 1  * 1:codons; 2:AAs; 3:codons-->AAs
     CodonFreq = 7 * 0 : 1/61 each, 1:F1X4, 2:F3X4, 3:codon table
                    * 4:F1x4MG, 5:F3x4MG, 6:FMutSel0, 7:FMutSel
-        model = 0
+        model = 2
                    * models for codons:
                       * 0:one, 1:b, 2:2 or more dN/dS ratios for branches, 6:FromCodon
                    * models for AAs or codon-translated AAs:
