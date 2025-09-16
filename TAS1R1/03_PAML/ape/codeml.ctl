@@ -1,4 +1,4 @@
-      seqfile = TAS1R1_DNA_alignment.fa * sequence data filename
+      seqfile = ../TAS1R1_DNA_alignment.fa * sequence data filename
      treefile = TAS1R1_ML.raxml.bestTree * tree file name
 
       outfile = TAS1R1_PAML_ape          * main result file name
