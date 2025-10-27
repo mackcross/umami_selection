@@ -1,3 +1,5 @@
+rm(list = ls())
+
 # Manually extracted values from PAML output
 null_lnL <- -13731.308321 
 null_np <- 70
