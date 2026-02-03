@@ -1,3 +1,3 @@
 Welcome! This directory contains all files and scripts used for my umami taste receptor study. I studied two genes--TAS1R1 and TAS1R3--to evaluate umami taste perception. I ran the same analysis on both of these genes separately, so they are represented by two directories which contain all files produced in their analysis. 
 
-The initial_run directory contains my initial analysis which I completed as a masters student. It is archived, as I improved the study design as a Ph.D. candidate and redid it. I don't want to delete data, so I kept this material in an archive. 
+The prelim directory contains my initial analysis which I completed as a masters student. Its results were consistent with the later analysis detailed here. 
